@@ -6,7 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="./city.php">Find the name of the employee who live in the city miami</a>
+    <a href="./city.php">Find the name of the employee who live in the city newyork</a>
+    <br>
+    <a href="./salary.php">Find the name of the employee whose salary is greater than $100000</a>
+    <br>
+    <a href="./citysalary.php">Find the name of the employee who live in newyork and  salary is greater than $100000</a>
     
 </body>
 </html>
