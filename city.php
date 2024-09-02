@@ -8,7 +8,7 @@ function connectDatabase() {
     }
 }
 
-$q = "SELECT * from employee where city = 'newyork' ";
+$q = "SELECT * from employee where city = 'miami' ";
 $query = mysqli_query(connectDatabase(), $q);
 ?>
 
@@ -22,8 +22,8 @@ $query = mysqli_query(connectDatabase(), $q);
 <body>
     <?php
     while ($result = mysqli_fetch_assoc($query)) { ?>
-        <h2><?php echo $result['person_name'];?></h2>
-        <h1><?php echo $result['city'];?></h1>
+        <h2>Name: <?php echo $result['person_name'];?></h2>
+        <h1>City: <?php echo $result['city'];?></h1>
         <br>
 
     <?php

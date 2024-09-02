@@ -22,8 +22,8 @@ $query = mysqli_query(connectDatabase(), $q);
 <body>
     <?php
     while ($result = mysqli_fetch_assoc($query)) { ?>
-        <h2><?php echo $result['person_name'];?></h2>
-        <h1><?php echo $result['salary'];?></h1>
+        <h2>Name: <?php echo $result['person_name'];?></h2>
+        <h1>Salary: <?php echo $result['salary'];?></h1>
         <br>
 
     <?php
